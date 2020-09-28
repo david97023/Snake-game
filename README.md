@@ -5,6 +5,6 @@
 3.	傳輸的部份，我將Client和Server掌管遊戲進行的部分都繼承了同一個類別(class)，讓它們有同樣的參數；為了達成同步，直接用TCP Socket傳送類別的JSON字串。  
   
 【執行方式】  
-進入執行檔的資料夾內，  
+進入執行檔的資料夾內，
 1. Server : 在命令視窗中執行 java -jar sserver.jar 來開啟。  
 2. Client : 在命令視窗中執行 java -jar sclient.jar 來開啟。  
